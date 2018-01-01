@@ -9,7 +9,7 @@ import time,random,sys,json,codecs,threading,glob
 #kk.loginResult()
 
 cl = LineAlpha.LINE() #A
-cl.login(token="EonwE6poxC9aZhdFiGt2.WCCRkMNgQXINSOQNF/5yiG.bKw08jfgUahQiuRU3k4HbEDrTffZeZcaNAI4kEyaaZI=")
+cl.login(token="")
 cl.loginResult()
 
 ki = kk = kc = ks = Lka = Lkb =ko = ke = ku = cl
@@ -57,8 +57,8 @@ Gmid = ko.getProfile().mid
 Hmid = ke.getProfile().mid
 Imid = ku.getProfile().mid
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"uc1c72b2a69c6ab18a7b28aa77fee5822","u0d260c353933137641b12142f5027db6","u2e8ed9da95e34448d589355d30d7383e","udc9f0e093b72d43ae4aeb19e3fe00b3b","uaed84a4ed7d8366865c11e5580f78252","u200e9985585fe9a14dfbd61ba4deb895","ufe01bf095486b8926bc4a7a1988c4263","u502f371e0fd162e3af48f6b2e363e65d","u78477fec83b987088e848a0b66b96cf5"]
-admin=["uc1c72b2a69c6ab18a7b28aa77fee5822","u481eb86e0cc37a5d060bfea7260a5c43","u0d260c353933137641b12142f5027db6","u2e8ed9da95e34448d589355d30d7383e","udc9f0e093b72d43ae4aeb19e3fe00b3b","uaed84a4ed7d8366865c11e5580f78252","u200e9985585fe9a14dfbd61ba4deb895","ufe01bf095486b8926bc4a7a1988c4263","u502f371e0fd162e3af48f6b2e363e65d","u78477fec83b987088e848a0b66b96cf5"]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]
+admin=["YOUR_MID_"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -73,7 +73,7 @@ wait = {
     "commentBlack":{},
     "wblack":False,
     "dblack":False,
-    "UpdateName":True,
+    "UpdateName":False,
     "cName":"",
     "cName2":"ASIST",
     "cName3":"ASIST",
@@ -83,7 +83,7 @@ wait = {
     "cName7":"ASIST",
     "cName8":"ASIST",
     "cName9":"ASIST",
-    "cName10":"􀀷􀰂􀰂꧁Kicker꧂􏿿􀀷",
+    "cName10":"",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
