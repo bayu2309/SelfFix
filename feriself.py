@@ -23,10 +23,7 @@ print "Welcomeback"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""╭════╬♥╬════╮
- ♧fєяѕвσтρυвℓιк♧
-╰════╬♥╬════╯
-╔════════╗
+helpMessage ="""╔════════╗
 ╠═══нєℓρ══╣
 ╚════════╝
 ♛Admin add @
@@ -93,18 +90,18 @@ helpMessage ="""╭════╬♥╬════╮
 ║☛ι∂@кσ (тєχт)
 ║☛кσ@ι∂ (тєχт)
 ╰════╬♥╬════╯
-http://line.me/ti/p/~feriantoyp"""
+http://line.me/ti/p/~bayulingga23"""
 KAC=[cl]
 mid = cl.getProfile().mid
 Bots=[mid]
-admin=["uc1c72b2a69c6ab18a7b28aa77fee5822","uc2ed5d897a68fe999a828e596a38c5fc","ue9f784b86cc88eb10a50817b6a328e61","ub2289daa16ffa70729d81c728bd8e4f0","u659d36159ba11a1993e37c9f6e68ae52","u229bc12e4f0e78540816e88827f554ec"]
+admin=["u15da775f99668a36b1818d0a7644f9ff"]
 wait = {
     'contact':False,
     'autoJoin':True,
     'autoCancel':{"on":True,"members":1},
     'leaveRoom':True,
     'autoAdd':False,
-    'message':"Hmmm ngeadd",
+    'message':"Ciee Nge add ,TQ ya -_-",
     "lang":"JP",
     "commentOn":False,
     "commentBlack":{},
@@ -112,7 +109,7 @@ wait = {
     "UpdateName":True,
     "protect":False,
     "dblack":False,
-    "cName":"Publik69",
+    "cName":"",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
@@ -1422,7 +1419,7 @@ def bot(op):
             elif 'Crash' in msg.text:
               if msg.from_ in admin:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "uc1c72b2a69c6ab18a7b28aa77fee5822,'"}
+                msg.contentMetadata = {'mid': "u15da775f99668a36b1818d0a7644f9ff,'"}
                 cl.sendMessage(msg)
 #-------------------------------------------------------  
             elif ("Boom " in msg.text):
@@ -1617,7 +1614,7 @@ def bot(op):
             elif msg.text in ["Creator"]:
                 if msg.toType == 2:
                       msg.contentType = 13
-                      Creatorbot = "uc1c72b2a69c6ab18a7b28aa77fee5822"
+                      Creatorbot = "u15da775f99668a36b1818d0a7644f9ff"
                       try:
                           msg.contentMetadata = {'mid': Creatorbot}
                         
